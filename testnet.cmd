@@ -1,0 +1,1 @@
+yarn build && rm -rf ../thewapdev.github.io/* && mv ./build/* ../thewapdev.github.io && cd ../thewapdev.github.io && mv CNAME-TESTNET CNAME && git add * && git commit -am "release deployment" && git push && cd ../testnet-swap-interface
